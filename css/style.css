@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+* , *::before , *::after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Courgette', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+:root{
+    scroll-behavior: smooth;
+}
+main{
+    min-height: 500px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+/*start header*/
+header{
+    min-height: 90vh;
+    background: url(../images/bg.jpg) no-repeat center / cover;
+}
+.te , .te1 , .te2 , .te3 , .te4{
+    height: 250px;
+    background: #79bc91;
+}
+.te:hover , .te1:hover , .te2:hover , .te3:hover , .te4:hover{
+    height: 250px;
+    background: #fe6139;
+}
+/*end header*/
+/*start section 2*/
+.select2{
+    min-height: 450px;
+}
+.tes , .tes1 , .tes2 , .tes3{
+    height: 400px;
+}
+.select2 h3{
+    color: #fe6138 !important;
+}
+/*end section 2*/
+/*start section 3*/
+.select3{
+    min-height: 650px;
+}
+.alltext{
+    min-height: 600px;
+}
+.text3{
+    min-height: 300px;
+}
+.divtex , .divtex1{
+    min-height: 300px;
+}
+.divtex{
+    background: #00a489;
+}
+.divtex1{
+    background: #fe6138;
+}
+.image1 , .image2 , .image3{
+    min-height: 300px;
+}
+.image1{
+    background: url(../images/about-pic2.jpg) no-repeat center/cover;
+}
+.image2{
+    background: url(../images/about-pic1.jpg) no-repeat center/cover;
+}
+.image3{
+    background: url(../images/about-pic3.jpg) no-repeat center/cover;
+}
+/*end section 3*/
+/*start section 4*/
+.select4{
+    min-height: 600px;
+    background: url(../images/process-bg.jpg) no-repeat center/cover;
+}
+.test , .test1 , .test2 , .test3{
+    height: 350px;
+}
+.test{
+    background: url(../images/p-bg1.jpg) no-repeat center/cover;
+}
+.test1{
+    background: url(../images/p-bg2.jpg) no-repeat center/cover;
+}
+.test2{
+    background: url(../images/p-bg3.jpg) no-repeat center/cover;
+}
+.test3{
+    background: url(../images/p-bg4.jpg) no-repeat center/cover;
+}
+/*end section 4*/
+/*start section 5*/
+.select5{
+    min-height: 750px;
+}
+.cardx{
+    background: #ededed;
+}
+.smallpng img{
+    width: 20%;
+}
+/*end section 5*/
+/*start section 6*/
+.select6{
+    min-height: 800px;
+}
+.text6{
+    min-height: 100px;
+}
+.img6{
+    height: 250px;
+}
+.image11{
+    background: url(../images/portpic1.jpg) no-repeat center/cover;
+}
+.image22{
+    background: url(../images/portpic2.jpg) no-repeat center/cover;
+}
+.image33{
+    background: url(../images/portpic3.jpg) no-repeat center/cover;
+}
+.image44{
+    background: url(../images/portpic4.jpg) no-repeat center/cover;
+}
+.image55{
+    background: url(../images/portpic5.jpg) no-repeat center/cover;
+}
+.image66{
+    background: url(../images/portpic6.jpg) no-repeat center/cover;
+}
+.image77{
+    background: url(../images/portpic7.jpg) no-repeat center/cover;
+}
+.image88{
+    background: url(../images/portpic8.jpg) no-repeat center/cover;
+}
+.image99{
+    background: url(../images/portpic9.jpg) no-repeat center/cover;
+}
+/*end section 6*/
+/*satrt secetion 7*/
+.select7{
+    min-height: 250px;
+    background: #fe6138;
+}
+/*end section 7*/
+/*start section 9*/
+.select9{
+    min-height: 600px;
+}
+.text9{
+    background: #fe6138;
+}
+/*end section 9*/
+/*start footer*/
+footer{
+    min-height: 300px;
+    overflow: hidden;
+}
+/*end footer*/
